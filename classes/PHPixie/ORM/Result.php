@@ -134,7 +134,7 @@ class Result implements \Iterator
 	 *
 	 * @return \PHPixie\ORM\Model Model of the current row of the result set
 	 */
-	public function current(): mixed
+	public function current(): object
 	{
 		$data = $this->_dbresult->valid()
 			?((array) $this->_dbresult->current())
