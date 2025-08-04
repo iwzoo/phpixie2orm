@@ -1,0 +1,23 @@
+{
+    "name": "phpixie2/orm",
+    "description": "ORM library for PHPixie",
+    "keywords": ["orm", "database"],
+    "homepage": "https://github.com/iwzoo/phpixie2orm",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "iwzoo",
+            "homepage": "https://github.com/iwzoo"
+        }
+    ],
+    "require": {
+        "phpixie2/db": "2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"PHPixie": "classes/"}
+    },
+    "extra": {
+        "forked-from": "phpixie/orm"
+    }
+}
